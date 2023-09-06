@@ -911,12 +911,12 @@ function Library:CreateWindow(GameText)
 			UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
 			UIPadding_9.Parent = DropdownOptions_1
-			UIPadding_9.PaddingBottom = UDim.new(0,4)
+			UIPadding_9.PaddingBottom = UDim.new(0,10)
 			UIPadding_9.PaddingTop = UDim.new(0,4)
 			
 			local function ToggleDropdown()
 				local isExpanded = DropdownOptions_1.Visible
-				local targetSize = isExpanded and UDim2.new(0, 275, 0, 30) or UDim2.new(0, 275, 0, 90)
+				local targetSize = isExpanded and UDim2.new(0, 275, 0, 30) or UDim2.new(0, 275, 0, 100)
 
 				local targetRotation = isExpanded and -90 or 90 -- Choose the target rotation based on expansion
 
