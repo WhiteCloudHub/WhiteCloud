@@ -72,6 +72,7 @@ function Library:CreateWindow(GameText)
 	WhiteCloud.Name = "WhiteCloud"
 	WhiteCloud.Parent = game.CoreGui
 	WhiteCloud.Enabled = true
+	WhiteCloud.ResetOnSpawn = false
 	
 	Main_1.Name = "Main"
 	Main_1.Parent = WhiteCloud
@@ -81,6 +82,7 @@ function Library:CreateWindow(GameText)
 	Main_1.BorderSizePixel = 0
 	Main_1.Position = UDim2.new(0.5, 0, 1.5, 0)
 	Main_1.Size = UDim2.new(0, 368,0, 233)
+	Main_1.Active = true
 	
 	local gui = Main_1
 
