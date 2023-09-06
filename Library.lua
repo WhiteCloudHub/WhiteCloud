@@ -916,7 +916,7 @@ function Library:CreateWindow(GameText)
 			
 			local function ToggleDropdown()
 				local isExpanded = DropdownOptions_1.Visible
-				local targetSize = isExpanded and UDim2.new(0, 275, 0, 30) or UDim2.new(0, 275, 0, 100)
+				local targetSize = isExpanded and UDim2.new(0, 275, 0, 30) or UDim2.new(0, 275, 0, 90)
 
 				local targetRotation = isExpanded and -90 or 90 -- Choose the target rotation based on expansion
 
