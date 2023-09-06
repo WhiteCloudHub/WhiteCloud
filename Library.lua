@@ -303,7 +303,7 @@ function Library:CreateWindow(GameText)
 		Popup_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
 		Popup_1.BorderColor3 = Color3.fromRGB(0,0,0)
 		Popup_1.BorderSizePixel = 0
-		Popup_1.Position = UDim2.new(1.2, 0,0.9, 0)
+		Popup_1.Position = UDim2.new(1.2, 0,0.8, 0)
 		Popup_1.Size = UDim2.new(0, 210,0, 76)
 
 		UICorner_13.Parent = Popup_1
@@ -383,10 +383,10 @@ function Library:CreateWindow(GameText)
 		UIPadding_12.PaddingLeft = UDim.new(0,6)
 		UIPadding_12.PaddingRight = UDim.new(0,6)
 		
-		local targetPosition1 = UDim2.new(0.9, 0,0.9, 0)
+		local targetPosition1 = UDim2.new(0.8, 0,0.8, 0)
 		local tweenInfo1 = TweenInfo.new(2, Enum.EasingStyle.Exponential)
 		local tween1 = TweenService:Create(Popup_1, tweenInfo1, {Position = targetPosition1})
-		local targetPosition2 = UDim2.new(1.2, 0,0.9, 0)
+		local targetPosition2 = UDim2.new(1.2, 0,0.8, 0)
 		local tweenInfo2 = TweenInfo.new(2, Enum.EasingStyle.Exponential)
 		local tween2 = TweenService:Create(Popup_1, tweenInfo2, {Position = targetPosition2})
 
